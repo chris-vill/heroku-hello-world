@@ -3,10 +3,13 @@ const path = require('path')
 const PORT = process.env.PORT || 5000
 
 const app = Express();
+const paths = {
+  client: path.join(__dirname, '../../client/dist')
+};
 
 app.set(
   'views',
-  path.join(__dirname, '/client/dist')
+  paths.client
 );
 app.engine(
   'html',
