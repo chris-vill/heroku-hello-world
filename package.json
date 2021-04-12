@@ -8,7 +8,7 @@
   },
   "scripts": {
     "start": "node index.js",
-    "build": "HEYOH! ============================"
+    "build": "echo \"HEYOH! ============================\""
   },
   "repository": {
     "type": "git",
