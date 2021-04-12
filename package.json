@@ -3,18 +3,28 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "engines": {
+    "node": "14.x"
+  },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node index.js"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/chris-vill/heroku-hello-world.git"
   },
-  "keywords": [],
+  "keywords": [
+    "node",
+    "heroku",
+    "express"
+  ],
   "author": "",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/chris-vill/heroku-hello-world/issues"
   },
-  "homepage": "https://github.com/chris-vill/heroku-hello-world#readme"
+  "homepage": "https://github.com/chris-vill/heroku-hello-world#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
 }
